@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="LogistockPro.css">
+    <title>LogistockPro</title>
+</head>
+<body>
+    <!-- Je fais la Responsive pour toutes les tailles d'écran, 
+    mais au-dessous de 768px ce sera la version mobile (fichier LogistockPro_mobi.html) -->
+    
+    <div class="page_accueil">
+
+        <div class="header">
+                <img src="./photo/logo.png" alt="" class="logo">
+                <a href="#" class="title title1"> TOUS NOS ARTICLES </a>
+                <a href="#" class="title title2"> A PROPOS </a>
+                <a href="#" class="title title3"> BESOIN D'AIDE ? </a>
+                <img src="./photo/user.png" alt="" class="icone icone1">
+                <img src="./photo/cart.png" alt="" class="icone">
+                <img src="./photo/courriel-de-contact.png" alt="" class="icone icone3">
+        </div>
+
+        <div class="presentation">
+            <div class="presen1">Kit évo qu’es ce que c’est ?</div>
+            <div class="presen2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, voluptas minima? Iure eum dignissimos numquam! repellat inventore accusamus.</div>
+        </div>
+
+        <div class="main">
+
+            <div class="meilleur_vente">
+                <div class ="content_haut"> Les meilleures ventes </div>
+                <div class="produits">
+                    <div class="produit">
+                        <img src="./photo/ecran1.png" alt="" class="image">
+                        <div class="prix">169&#8364;90</div>
+                    </div>
+                    <div class="produit">
+                        <img src="./photo/portable1.png" alt="" class="image">
+                        <div class="prix">599&#8364;90</div>
+                    </div>
+                    <div class="produit">
+                        <img src="./photo/carteSSD.png" alt="" class="image">
+                        <div class="prix">59&#8364;90</div>
+                    </div>
+                    <div class="produit">
+                        <img src="./photo/ventilateur.png" alt="" class="image">
+                        <div class="prix">39&#8364;90</div>
+                    </div>
+                    <div class="produit">
+                        <img src="./photo/TUFGaming.png" alt="" class="image">
+                        <div class="prix">159&#8364;90</div>
+                    </div>
+                </div>
+                <div class="content_bas">
+                    <div class="promo_affiche">Profitez de 1% de réduction immédiate grace au code promo : PASCHER</div>
+                    <a href="#" class="bar_trier"> 
+                        <div class="text_trier">Trier les produits</div>
+                        <img src="./photo/filtres_1.png" alt="" class="icone_trier">
+                    </a>
+                </div>
+            </div>
+            <div class="result_search">
+                <div class="nav_right">
+                    <div class="filtre filtre_categorie">
+                        <div class="text_filtre">Catégorie</div> 
+                        <img src="./photo/chevron-down.png" alt="">
+                    </div>
+
+                    <div class="filtre">
+                        <div class="text_filtre">Marque</div>
+                        <img src="./photo/chevron-right.png" alt="">
+                    </div>
+                    <div class="choix">
+                        <input type="checkbox" id="Apple" name="Apple">
+                        <label for="Apple" class="text_choix" >Apple</label>
+                    </div>
+                    <div class="choix choix1">
+                        <input type="checkbox" id="Dell" name="Dell">
+                        <label for="Dell" class="text_choix" >Dell</label>
+                    </div>
+                    <div class="choix choix1">
+                        <input type="checkbox" id="Asus" name="Asus">
+                        <label for="Asus" class="text_choix" >Asus</label>
+                    </div>
+                    <div class="choix choix1">
+                        <input type="checkbox" id="acer" name="acer">
+                        <label for="acer" class="text_choix" >Acer</label>
+                    </div>
+
+                    <div class="filtre prix">
+                        <div class="text_filtre">Prix</div>
+                        <img src="./photo/chevron-right.png" alt="">
+                    </div>
+                    <div class="choix_prix">
+                        <input type="range" id="prixchoix" name="prixchoix" min="0" max="10000" step="1">
+                        <label for="prixchoix" class="prix_choix_label">Prix</label>
+                        <br>
+                        <div class="prix_valeur">
+                            <div class="prix_valeur_choix prix_valeur_start">0</div>
+                            <div class="prix_valeur_choix prix_valeur_end">10 000</div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="filtre prix">
+                        <div class="text_filtre">Systeme d’exploitation</div>
+                        <img src="./photo/chevron-down.png" alt="">
+                    </div>
+
+                    <div class="filtre prix">
+                        <div class="text_filtre">Blablabla</div>
+                        <img src="./photo/chevron-down.png" alt="">
+                    </div>
+                </div>
+
+                <div class="affiche_result">
+                    <div class="card_produit">
+                        <img src="./photo/ecran2.png" alt="">
+                        <div class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente, optio ipsa nemo fugiat dolor quo et voluptate. Fuga, similique beatae quas quis exercitationem aliquid dignissimos corporis. Obcaecati distinctio itaque fugiat tempora odit veritatis natus non incidunt enim quisquam.
+                            <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente.</div>
+                        <div class="order">
+                            <div class="prix">269&#8364;90</div>
+                            <a href="#" class="order_button">
+                                <div class="order_text">Ajouter au panier</div>
+                                <img src="./photo/cart.png" alt="" class="icone">
+                            </a>
+                            <div class="order_button">
+                                <div class="order_text">Quantité</div>
+                                <div class="choix_quantite">
+                                    <div class="number">1</div>
+                                    <img src="./photo/chevron-down.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card_produit">
+                        <img src="./photo/seagate.png" alt="">
+                        <div class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente, optio ipsa nemo fugiat dolor quo et voluptate. Fuga, similique beatae quas quis exercitationem aliquid dignissimos corporis. Obcaecati distinctio itaque fugiat tempora odit veritatis natus non incidunt enim quisquam.
+                            <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente.</div>
+                        <div class="order">
+                            <div class="prix">59&#8364;90</div>
+                            <a href="#" class="order_button">
+                                <div class="order_text">Ajouter au panier</div>
+                                <img src="./photo/cart.png" alt="" class="icone">
+                            </a>
+                            <div class="order_button">
+                                <div class="order_text">Quantité</div>
+                                <div class="choix_quantite">
+                                    <div class="number">1</div>
+                                    <img src="./photo/chevron-down.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card_produit">
+                        <img src="./photo/aero_cool.png" alt="">
+                        <div class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente, optio ipsa nemo fugiat dolor quo et voluptate. Fuga, similique beatae quas quis exercitationem aliquid dignissimos corporis. Obcaecati distinctio itaque fugiat tempora odit veritatis natus non incidunt enim quisquam.
+                            <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum eos aut officiis cumque quam accusamus at quia exercitationem facere sapiente.</div>
+                        <div class="order">
+                            <div class="prix">43&#8364;90</div>
+                            <a href="#" class="order_button">
+                                <div class="order_text">Ajouter au panier</div>
+                                <img src="./photo/cart.png" alt="" class="icone">
+                            </a>
+                            <div class="order_button">
+                                <div class="order_text">Quantité</div>
+                                <div class="choix_quantite">
+                                    <div class="number">1</div>
+                                    <img src="./photo/chevron-down.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_affiche">
+                        <a href="" class="page_order order1">PAGE PRECEDENTE</a>
+                        <a href="" class="nombre_page">1</a>
+                        <a href="" class="nombre_page">2</a>
+                        <a href="" class="nombre_page">3</a>
+                        <a href="" class="page_order order2">PAGE SUIVANTE</a>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+        <div class="footer_desktop_haut">
+            <div class="card_footer">
+                <div class="footer_titre">A propos</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+            </div>
+            <div class="card_footer">
+                <div class="footer_titre">A propos</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+            </div>
+            <div class="card_footer">
+                <div class="footer_titre">A propos</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+            </div>
+            <div class="card_footer">
+                <div class="footer_titre">A propos</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+                <div class="footer_content">lorem ipsum</div>
+            </div>
+            <div class="card_footer card_footer1">
+                <div class="footer_titre">Suivez-nous sur les réseaux</div>
+                <div class="icones_footer">
+                    <img src="./photo/icone_facebook.png" alt="" class="image_footer">
+                    <img src="./photo/icon_twitter.png " alt="" class="image_footer">
+                    <img src="./photo/icon_insta.png" alt="" class="image_footer">
+                    <img src="./photo/icone_linkedin.png" alt="" class="image_footer">
+                </div>
+            </div>
+        </div>
+        <div class="footer_desktop_bas">
+            <div class="list_condition">
+                <a href="#"> Conditions d’utilisation </a>
+                <a href="#"> Mentions légales </a>
+                <a href="#"> Utilisation des cookies </a>
+            </div>
+            <div class="copyright">
+                <img src="./photo/copyright1.png" alt="" class="icone_copyright">
+                <div class="text_copyright">Copyright</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
